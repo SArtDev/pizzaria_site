@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Seja um Franqueado</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <style> body{background-color: #111111;} </style>
+
+    <!--Menu NavBar-->
+    <nav class="navbar col-12 navbar-expand-lg bg-black navbar-dark" style="z-index:999; font-family: 'Poppins', sans-serif;">
+        <div class="container-fluid col-11 m-auto">
+          <div class="img container-fluid col-7 m-auto"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Pizza" width="70" height="60"></a></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #F0C219;" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  style="color: #F0C219;" href="cardápio.html">CARDÁPIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #F0C219;" href="sobrenós.html">SOBRE NÓS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #F0C219;" href="sejaumfranqueado.html">SEJA UM FRANQUEADO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Carousel-->
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/franquias.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+        </div>
+        <!--Titulo-->
+        <h1 class="container-fluid col-12 m-auto text-center" style="color: #F0C219; font-family: 'Aboreto', cursive; padding-bottom: 10vh; padding-top: 10vh ;font-style: normal;font-size: min(88px, 5vw);">BEM VINDO!</h1>
+        <!--Formulario-->
+        <!--Fundo do Formulario-->
+       <div class="container-fluid col-12 m-auto text-center" style="border: solid 25px #272727; ; border-radius: 10px;  background-color: #272727; width:60vw; height:min-content70vh max-content250vh; margin-top: 2vh; ">
+        <!--Nome/Formulario-->
+        <div class="row">
+          <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg " style=" padding-top: 5vh; color: #D7D7D7; " >Nome:</label>
+          <div  class="col-sm-9 m-auto">
+            <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="">
+          </div>
+          <br><br><br><br>
+          <!--Email/Formulario-->
+          <div class="row">
+            <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg " style=" color: #D7D7D7; " >E-mail:</label>
+            <div  class="col-sm-9 m-auto">
+              <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="">
+            </div>
+            <!--Telefone/Formulario-->
+            <div class="row"style="padding-top:4vh ;">
+                <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg " style=" color: #D7D7D7; "padding-top:4vh ;"" >Telefone:</label>
+                <div  class="col-sm-9 m-auto">
+                  <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="">
+                </div>
+            </div>
+        </div>
+       </div>
+       <br>
+       <!--Endereço/Formulario-->
+       <h1 class="container-fluid" style="color:#D7D7D7; font-size:x-large;">Endereço:</h1>
+       <!--Logradouro/Formulario-->
+       <form class="row g-3 ">
+        <div class="col-12"style="color:#D7D7D7">
+          <label for="inputAddress" class="form-label" style=" padding-right:50vw">Logradouro</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="">
+        </div>
+        <!--Cidade/Formulario-->
+        <div class="col-md-6"style="color:#D7D7D7">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <!--Estado/Formulario-->
+        <div class="col-md-4">
+          <label for="inputState" class="form-label" style="color:#D7D7D7">Estado</label>
+          <select id="inputState" class="form-select">
+            <option selected>Escolha...</option>
+            <option>AC-Acre</option><option>AL-Alagoas</option><option>AP-Amapá</option><option>AM-Amazonas</option>
+            <option>BA-Bahia</option><option>CE-Ceará</option><option>ES-Espírito Santo</option><option>GO-Goiás</option>
+            <option>MA-Maranhão</option><option>MT-Mato Grosso</option><option>MS-Mato Grosso do Sul</option><option>MG-Minas Gerais</option><option>PA-Pará</option>
+            <option>PR-Paraná</option><option>PB-Paraíba</option><option>PE-Pernambuco</option><option>PI-Piauí</option><option>RJ-Rio de Janeiro</option>
+            <option>RN-Rio Grande do Norte</option><option>RS-Rio Grande do Sul</option><option>RO-Rondônia</option><option>RR-Roraima</option><option>SC-Santa Catarina</option>
+            <option>SP-São Paulo</option><option>SE-Sergipe</option><option>TO-Tocantins</option><option>DF-Distrito Federal</option>
+          </select>
+        </div>
+        <!--Número/Formulario-->
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label" style="color:#D7D7D7">Número</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </form>
+      </div>
+      <br><br>
+      <!--Footer-->
+      <footer class="page-footer p-5 col-12 m-auto" style="background-color: #000000; font-family: 'Poppins', sans-serif;">
+        <div class="text-center" style="color: #FFFFFF;">
+            @2022 Copyright: SweetArt Dev <br>
+            Para mais, contate-nos: sweetartdev@gmail.com
+        </div>
+      </footer>
+</body>
+</html>

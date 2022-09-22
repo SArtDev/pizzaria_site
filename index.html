@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Pizzaria</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <style> body{background-color: #111111;} </style>
+
+    <!--Menu NavBar-->
+    <nav class="navbar col-12 navbar-expand-lg bg-black navbar-dark" style="z-index:999; font-family: 'Poppins', sans-serif;">
+        <div class="container-fluid col-11 m-auto">
+          <div class="img container-fluid col-7 m-auto"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Pizza" width="70" height="60"></a></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #F0C219;" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  style="color: #F0C219;" href="cardápio.html">CARDÁPIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #F0C219;" href="sobrenós.html">SOBRE NÓS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #F0C219;" href="sejaumfranqueado.html">SEJA UM FRANQUEADO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Carrosel-->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrossel1.jpg" class="d-block w-100" alt="PIZZA">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carrossel2.jpg" class="d-block w-100" alt="PIZZA">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Cards-->
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 col-7 m-auto text-center" style="font-family: 'Poppins', sans-serif;">
+        <div class="col" style="margin-bottom: 24px;">
+          <div class="card p-3" style="border: solid 3px #F0C219; border-radius: 10px; background-color: #202020;">
+            <div class="card-body">
+              <h4 class="card-title" style="color: #F0C219;">CARDÁPIO</h4>
+              <p class="card-text" style="color: #D7D7D7; font-size: min(20px, 3vw);">Confira nossos sabores e acompanhamentos</p>
+              <a href="cardápio.html" class="btn" style="background-color: #C6A21E; border-radius: 20px; color: white;">SAIBA MAIS</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3" style="border: solid 3px #F0C219; border-radius: 10px; background-color: #202020;">
+            <div class="card-body">
+              <h4 class="card-title" style="color: #F0C219;">SOBRE NÓS</h4>
+              <p class="card-text" style="color: #D7D7D7; font-size: min(20px, 3vw);">Conheça nosso estabelecimento, iFood etc</p>
+              <a href="sobrenós.html" class="btn" style="background-color: #C6A21E; border-radius: 20px; color: white;">SAIBA MAIS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer class="page-footer p-5 col-12 m-auto" style="background-color: #000000; font-family: 'Poppins', sans-serif;">
+        <div class="text-center" style="color: #FFFFFF;">
+            @2022 Copyright: SweetArt Dev <br>
+            Para mais, contate-nos: sweetartdev@gmail.com
+        </div>
+      </footer>
+</body>
+</html>
